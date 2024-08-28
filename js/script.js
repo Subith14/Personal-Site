@@ -18,8 +18,8 @@ function myMenuFunction(){
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop >  50) {
 
       navHeader.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
-      navHeader.style.height = "70px";
-      navHeader.style.lineHeight = "70px";
+      navHeader.style.height = "85px";
+      navHeader.style.lineHeight = "85px";
 
     } else {
 
@@ -61,6 +61,9 @@ sr.reveal('.featured-image',{delay: 300})
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
 sr.reveal('.card',{interval: 200})
+sr.reveal('.srm',{interval: 200})
+sr.reveal('.srmu',{interval:200})
+sr.reveal('.time-line',{interval:200})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
